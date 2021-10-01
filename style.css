@@ -37,6 +37,14 @@ h2 {
   font-size: 3vw;
 }
 
+.btn.btn-default{
+  background-color: rgb(113, 135, 190) !important;
+}
+
+.btn.btn-default.active{
+  background-color: rgb(144, 200, 238) !important;
+}
+
 hr{
   border:1px solid grey;
 }
@@ -75,15 +83,6 @@ div.head {
   /*background-color:red*/
   /*border:dotted;*/
 }
-
-
-/* .clearfix::after{
-  content:"";
-  clear:both;
-  display:table;
-  overflow:auto;
-} */
-
 
 /* ? */
 div.col-sm-4 {

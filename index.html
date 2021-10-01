@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
 
@@ -32,11 +32,12 @@
         if (buttons[i].classList.contains("active")) {
           active_buttons++;
         }
-        console.log(active_buttons);
+        console.log(i);
       }
+      console.log(active_buttons);
 
       // contact field at bottom:
-      if (active_buttons.length > 0) {
+      if (active_buttons.length == 0) {
         document.getElementById("header").style.top = "30%";
       } else { // move contact field to top
         document.getElementById("header").style.top = "0%";
@@ -62,12 +63,12 @@
 
       else // activate:
       {
-        var x = document.getElementsByClassName("row_container");
+        var rows = document.getElementsByClassName("row_container");
         var i;
-        for (i = 0; i < x.length; i++) {
-          if (x[i].classList.contains(classSelector)) {
-            x[i].style.visibility = "visible";
-            x[i].style.position = "static";
+        for (i = 0; i < rows.length; i++) {
+          if (rows[i].classList.contains(classSelector)) {
+            rows[i].style.visibility = "visible";
+            rows[i].style.position = "static";
           }
           document.getElementById(button_id).className += " active"; //activate button graphics
         }
@@ -93,8 +94,8 @@
       <br>
       <button type="button" class="btn btn-default active" id="andorraBtn"
         onclick="button_click('andorraBtn', 'andorra')">Andorra</button>
-      <button type="button" class="btn btn-default active" id="smittyBtn"
-        onclick="button_click('smittyBtn', 'smitty')">SmittyWerben</button>
+      <!-- <button type="button" class="btn btn-default active" id="smittyBtn"
+        onclick="button_click('smittyBtn', 'smitty')">SmittyWerben</button> -->
       <button type="button" class="btn btn-default active" id="rhizoBtn"
         onclick="button_click('rhizoBtn', 'rhizo')">Rhizophora</button>
     </center>
