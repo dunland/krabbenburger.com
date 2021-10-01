@@ -1,5 +1,5 @@
 html, body {
-  /* margin: 0px; */
+  margin: 0px;
   padding: 0px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 16px;
@@ -36,7 +36,7 @@ h1 {
   display: inline;
   font-style: justify;
   color: rgb(130, 76, 185);
-  font-size: 5vw;
+  font-size: 3vw;
   letter-spacing: 2vw;
 }
 
@@ -63,7 +63,7 @@ hr{
 
 div {
   border: none;
-  border-color: black;
+  border-color: rgb(150, 13, 13);
 }
 
 /* keep images and text align */
@@ -148,6 +148,7 @@ div.textTitle { /* for use is title as a header over text column */
   /* letter-spacing:0.75vw; */
   color: rgb(91, 76, 185);
   width: 100%;
+  font-size: medium;
 }
 
 div.upcoming { /* for use is title as a header over text column */
@@ -177,8 +178,8 @@ div.text {
 
 #outerbottom {
   /* position:fixed; */
-  position: static;
-  margin: 30px;
-  bottom:30%;
+  /* position: static; */
+  /* margin: 30px; */
+  /* bottom:30%; */
   width: 100%;
 }
