@@ -114,6 +114,7 @@ div.col-sm-4 img {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
   max-width: 300px;
+  background-color: darkslategray;
   /* width: 30vw; */
   /* min-width: 200px; */
   max-height: 300px;
@@ -148,7 +149,7 @@ div.textTitle { /* for use is title as a header over text column */
   /* letter-spacing:0.75vw; */
   color: rgb(181, 169, 255);
   width: 100%;
-  font-size: medium;
+  font-size: large;
 }
 
 div.upcoming { /* for use is title as a header over text column */
@@ -164,7 +165,8 @@ div.text {
   text-align:left;
   /* vertical-align: middle; */
   margin-top: 20px;
-  font-size: small;
+  font-size: medium;
+  background-color: darkslategray;
 }
 
 .imageTitle span {
@@ -178,7 +180,7 @@ div.text {
 
 #outerbottom {
   /* position:fixed; */
-  /* position: static; */
+  position: static;
   /* margin: 30px; */
   /* bottom:30%; */
   width: 100%;
