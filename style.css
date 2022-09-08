@@ -20,10 +20,10 @@ div.banner{
   font-size: large;
 }
 
-#banner a:link { color: #d5ffe3; }
-#banner a:visited { color: #d5ffe3; }
-#banner a:hover { color: #70DB93; }
-#banner a:active { color: #db709d; }
+.banner a:link { color: #d5ffe3; }
+.banner a:visited { color: #d5ffe3; }
+.banner a:hover { color: #70DB93; }
+.banner a:active { color: #db709d; }
 
 #outerbottom {
   /* top: 90%; */
@@ -152,6 +152,10 @@ div.textTitle { /* for use is title as a header over text column */
   font-size: large;
 }
 
+.showtable td, th{
+  padding-left: 10px;
+}
+
 div.upcoming { /* for use is title as a header over text column */
   text-align:center;
   font-size:28px;
@@ -167,6 +171,7 @@ div.text {
   margin-top: 20px;
   font-size: medium;
   background-color: darkslategray;
+  padding-bottom: 20px;
 }
 
 .imageTitle span {
