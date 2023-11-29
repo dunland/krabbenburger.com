@@ -84,7 +84,7 @@ div.col-sm-12{
 
 div.head {
   /*header area on top with responsive height*/
-  position: fixed;
+  /* position: fixed; */
   z-index: 10;
   top: 0px;
   height: 10vw;
